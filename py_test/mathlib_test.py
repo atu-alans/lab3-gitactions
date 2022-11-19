@@ -1,17 +1,17 @@
 import python_pytest
 
-#Added line to test workflow
+#Added line to test workfloww
 def test_addition():
 
     output = python_pytest.addition(2, 4)
-    assert output == 9
+    assert output == 6
 
 def test_substraction():
 
-    output = python_pytest.substraction(2, 4)
-    assert output == -4
+    output = python_pytest.substraction(8, 4)
+    assert output == 4
 
 def test_multiply():
 
     output = python_pytest.multiply(2, 4)
-    assert output == 10
+    assert output == 8
